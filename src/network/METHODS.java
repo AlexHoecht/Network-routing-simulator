@@ -1,0 +1,24 @@
+package network;
+
+/**
+ * Controller methods enumeration class
+ *
+ */
+public enum METHODS {
+	STEP_BACK, 
+	RUN, 
+	STEP_FORWARD, 
+	NEW_NODE,
+	NEW_EDGE, 
+	SET_FREQUENCY, 
+	SET_ALGORITHM,
+	DELETE_NODE, 
+	DELETE_EDGE, 
+	NEW_NETWORK,
+	DEFAULT_NETWORK, 
+	EDIT_NODE, 
+	AVERAGE_HOPS_METRIC, 
+	RESET_SIMULATION, 
+	IMPORT_XML, 
+	EXPORT_XML;
+}
